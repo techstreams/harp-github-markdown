@@ -52,12 +52,12 @@ html
 
 ## Credits
 
-* [Sindre Sorhus](http://sindresorhus.com) for the [css styling](https://github.com/sindresorhus/github-markdown-css)
+* [Sindre Sorhus](http://sindresorhus.com) for the [CSS](https://github.com/sindresorhus/github-markdown-css)
 * [Harp](http://harpjs.com/) for the web server
 
 
 ## License
 
-[CSS styling](public/css/github-markdown.css) is licensed MIT © [Sindre Sorhus](http://sindresorhus.com)
+[CSS](public/css/github-markdown.css) is licensed MIT © [Sindre Sorhus](http://sindresorhus.com)
 
 Project is licensed MIT © [Laura Taylor](https://github.com/techstreams)
