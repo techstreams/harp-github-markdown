@@ -25,7 +25,7 @@ Visit [localhost:9000](http://localhost:9000) in your browser to view.
 
 **Note**
 
-This boilerplate uses `ejs` for the [layout template](public/_layout.ejs).   If you want to use `jade`, substitute the following code in [public/_layout.ejs](public/_layout.ejs) and rename it to `_layout.jade`
+This boilerplate uses `ejs` for the [layout template](public/_layout.ejs).   To use `jade`, substitute the following code in [public/_layout.ejs](public/_layout.ejs) and rename it to `_layout.jade`
 
 **_layout.jade**
 
