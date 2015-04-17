@@ -86,7 +86,7 @@
 }
 
 .markdown-body input {
-  font: 13px/1.4 Helvetica, arial, freesans, clean, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+  font: 13px/1.4 Helvetica, arial, nimbussansl, liberationsans, freesans, clean, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 .markdown-body a {
@@ -215,6 +215,11 @@
 
 .markdown-body>*:last-child {
   margin-bottom: 0 !important;
+}
+
+.markdown-body a:not([href]) {
+  color: inherit;
+  text-decoration: none;
 }
 
 .markdown-body .anchor {
@@ -428,7 +433,6 @@
 .markdown-body img {
   max-width: 100%;
   box-sizing: border-box;
-  -moz-box-sizing: border-box;
 }
 
 .markdown-body code {
@@ -516,14 +520,7 @@
 }
 
 .markdown-body .pl-c1,
-.markdown-body .pl-mdh,
-.markdown-body .pl-mm,
-.markdown-body .pl-mp,
-.markdown-body .pl-mr,
-.markdown-body .pl-s1 .pl-v,
-.markdown-body .pl-s3,
-.markdown-body .pl-sc,
-.markdown-body .pl-sv {
+.markdown-body .pl-s .pl-v {
   color: #0086b3;
 }
 
@@ -532,12 +529,8 @@
   color: #795da3;
 }
 
-.markdown-body .pl-s1 .pl-s2,
-.markdown-body .pl-smi,
-.markdown-body .pl-smp,
-.markdown-body .pl-stj,
-.markdown-body .pl-vo,
-.markdown-body .pl-vpf {
+.markdown-body .pl-s .pl-s1,
+.markdown-body .pl-smi {
   color: #333;
 }
 
@@ -545,20 +538,17 @@
   color: #63a35c;
 }
 
-.markdown-body .pl-k,
-.markdown-body .pl-s,
-.markdown-body .pl-st {
+.markdown-body .pl-k {
   color: #a71d5d;
 }
 
 .markdown-body .pl-pds,
-.markdown-body .pl-s1,
-.markdown-body .pl-s1 .pl-pse .pl-s2,
+.markdown-body .pl-s,
+.markdown-body .pl-s .pl-pse .pl-s1,
 .markdown-body .pl-sr,
 .markdown-body .pl-sr .pl-cce,
 .markdown-body .pl-sr .pl-sra,
-.markdown-body .pl-sr .pl-sre,
-.markdown-body .pl-src {
+.markdown-body .pl-sr .pl-sre {
   color: #183691;
 }
 
@@ -605,13 +595,11 @@
   font-weight: bold;
 }
 
-.markdown-body .pl-md,
-.markdown-body .pl-mdhf {
+.markdown-body .pl-md {
   background-color: #ffecec;
   color: #bd2c00;
 }
 
-.markdown-body .pl-mdht,
 .markdown-body .pl-mi1 {
   background-color: #eaffea;
   color: #55a532;
@@ -649,8 +637,7 @@
 }
 
 .markdown-body .task-list-item input {
-  float: left;
-  margin: 0.3em 0 0.25em -1.6em;
+  margin: 0 0.35em 0.25em -1.6em;
   vertical-align: middle;
 }
 
