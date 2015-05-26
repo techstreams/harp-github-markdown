@@ -30,7 +30,7 @@ This boilerplate uses `ejs` for the [layout template](public/_layout.ejs).   To 
 **_layout.jade**
 
 ```
-!!! 5
+doctype
 html
   head
     meta(charset='utf-8')
